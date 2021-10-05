@@ -1,0 +1,37 @@
+        div {
+            display: block;
+        }
+        .page-search {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .header {
+            height: 30%;
+        }
+        .main {
+            height: 50%;
+            text-align: center;
+        }
+        .footer {
+            height: 20%;
+        }
+        .menu-bar {
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+        .field {
+            width: 550px;
+        	  height: 40px;
+    	      border-radius: 20px;
+            border: 1px solid lightslategray;
+            padding-left: 15px;
+        }
+        .button {
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+        }
