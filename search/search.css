@@ -31,8 +31,8 @@
         }
         .field {
             width: 550px;
-        	  height: 40px;
-    	      border-radius: 20px;
+        	height: 40px;
+    	    border-radius: 20px;
             border: 1px solid lightslategray;
             padding-left: 15px;
         }
@@ -40,4 +40,15 @@
             width: 100px;
             height: 30px;
             border-radius: 5px;
+        }
+        TABLE {
+            width: 600px;
+            margin: auto;
+        }
+           TD, TH {
+            padding: 3px;
+        }
+           TH {
+            text-align: left;
+            white-space: nowrap;
         }
