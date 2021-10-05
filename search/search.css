@@ -1,3 +1,6 @@
+        body {
+	        font-family: Helvetica, sans-serif;
+        }
         div {
             display: block;
         }
@@ -49,6 +52,7 @@
             padding: 3px;
         }
            TH {
+            color: rgb(105, 105, 105);   
             text-align: left;
             white-space: nowrap;
         }
