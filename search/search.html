@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-UA">
     <head>
-        <title>Search</title>
+        <title>Пошук</title>
+        <style>
+        div {
+            display: block;
+        }
+        .page-search {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .header {
+            height: 30%;
+        }
+        .main {
+            height: 50%;
+            text-align: center;
+        }
+        .footer {
+            height: 20%;
+        }
+        .menu-bar {
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+        .button {
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        </style>
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="page-search">
+            <div class="header">
+                <div class="menu-bar">
+                    <a href="search_img.html">Пошук зображення</a>
+                    <a href="search_advanced.html">Розширений пошук</a>
+                </div>
+            </div>
+            <div class="main">
+                <img src="Poshuk.png" width="300" height="110" alt="Poshuk"> <br><br>
+                <form action="https://google.com/search">
+                    <input type="text" name="q"> <br><br>
+                    <input type="submit" class="button" value="Шукати">
+                </form>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+
+
     </body>
 </html>
